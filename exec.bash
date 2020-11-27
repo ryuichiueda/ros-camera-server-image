@@ -1,6 +1,5 @@
 #!/bin/bash
 
-source /root/.bashrc
 source /opt/ros/melodic/setup.bash
 
 roscore &
