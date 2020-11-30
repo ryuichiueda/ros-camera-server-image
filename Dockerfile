@@ -1,6 +1,5 @@
 FROM ryuichiueda/ubuntu18.04-ros-image
 
-COPY ["bashrc", "/root/.bashrc"]
 COPY ["exec.bash", "/root/exec.bash"]
 
 RUN apt-get update
